@@ -1,10 +1,10 @@
 # NativE: Multi-modal Knowledge Graph Completion in the Wild
 ![](https://img.shields.io/badge/version-1.0.1-blue)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/zjukg/NATIVE/main/LICENSE)
-[![Preprint](https://img.shields.io/badge/Preprint'24-brightgreen)](https://arxiv.org)
+[![Preprint](https://img.shields.io/badge/Preprint'24-brightgreen)](https://www.researchgate.net/publication/379508830_NativE_Multi-modal_Knowledge_Graph_Completion_in_the_Wild)
 [![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![SIGIR2024](https://img.shields.io/badge/SIGIR-2024-%23bd9f65?labelColor=%2377BBDD&color=3388bb)](https://sigir-2024.github.io/index.html/)
- - [NativE: Multi-modal Knowledge Graph Completion in the Wild](https://arxiv.org/)
+ - [NativE: Multi-modal Knowledge Graph Completion in the Wild](https://www.researchgate.net/publication/379508830_NativE_Multi-modal_Knowledge_Graph_Completion_in_the_Wild)
 
 > To address the diversity and imbalance issues in multi-modal knowledge graph completion, we propose a comprehensive framework NativE to achieve MMKGC in the wild. NativE proposes a relation-guided dual adaptive fusion module that enables adaptive fusion for any modalities and employs a collaborative modality adversarial training framework to augment the imbalanced modality information. We construct a new benchmark called WildKGC with five datasets to evaluate our method. The empirical results compared with 21 recent baselines confirm the superiority of our method, consistently achieving state-of-the-art performance across different datasets and various scenarios while keeping efficient and generalizable.
 
