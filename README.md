@@ -64,6 +64,11 @@ Thanks a lot :)
 
 ```bigquery
 
-TBD
-
+@article{zhang2024native,
+  title={NativE: Multi-modal Knowledge Graph Completion in the Wild},
+  author={Zhang, Yichi and Chen, Zhuo and Guo, Lingbing and Xu, Yajing and Hu, Binbin and Liu, Ziqi and Zhang, Wen and Chen, Huajun},
+  journal={Authorea Preprints},
+  year={2024},
+  publisher={Authorea}
+}
 ```
