@@ -1,12 +1,10 @@
-from email.generator import Generator
 import torch
-import mmkgc
-from mmkgc.config import Tester, AdvMixTrainer, WCGTrainerGP
-from mmkgc.module.model import AdvMixRotatE, AdvRelRotatE, AdvRelRotatE3
+from mmkgc.config import Tester, WCGTrainerGP
+from mmkgc.module.model import AdvRelRotatE
 from mmkgc.module.loss import SigmoidLoss
-from mmkgc.module.strategy import NegativeSampling, NegativeSamplingGP
+from mmkgc.module.strategy import NegativeSamplingGP
 from mmkgc.data import TrainDataLoader, TestDataLoader
-from mmkgc.adv.modules import MultiGenerator, CombinedGenerator
+from mmkgc.adv.modules import CombinedGenerator
 
 from args import get_args
 

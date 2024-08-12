@@ -1,11 +1,10 @@
 import torch
-import mmkgc
 from mmkgc.config import Tester, WCGTrainerKuai16KGP
-from mmkgc.module.model import AdvMixRotatE, AdvRelRotatEKuai16K
+from mmkgc.module.model import AdvRelRotatEKuai16K
 from mmkgc.module.loss import SigmoidLoss
 from mmkgc.module.strategy import NegativeSamplingGP
 from mmkgc.data import TrainDataLoader, TestDataLoader
-from mmkgc.adv.modules import MultiGenerator, CombinedGenerator2
+from mmkgc.adv.modules import CombinedGenerator2
 
 from args import get_args
 
