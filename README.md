@@ -4,7 +4,8 @@
 [![Preprint](https://img.shields.io/badge/Preprint'24-brightgreen)](https://dl.acm.org/doi/abs/10.1145/3626772.3657800)
 [![Pytorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![SIGIR2024](https://img.shields.io/badge/SIGIR-2024-%23bd9f65?labelColor=%2377BBDD&color=3388bb)](https://sigir-2024.github.io/index.html/)
- - [NativE: Multi-modal Knowledge Graph Completion in the Wild](https://dl.acm.org/doi/abs/10.1145/3626772.3657800)
+ - [NativE: Multi-modal Knowledge Graph Completion in the Wild (ACM Library)](https://dl.acm.org/doi/abs/10.1145/3626772.3657800)
+ - [NativE: Multi-modal Knowledge Graph Completion in the Wild (Arxiv)](https://arxiv.org/abs/2406.17605)
 
 > To address the diversity and imbalance issues in multi-modal knowledge graph completion, we propose a comprehensive framework NativE to achieve MMKGC in the wild. NativE proposes a relation-guided dual adaptive fusion module that enables adaptive fusion for any modalities and employs a collaborative modality adversarial training framework to augment the imbalanced modality information. We construct a new benchmark called WildKGC with five datasets to evaluate our method. The empirical results compared with 21 recent baselines confirm the superiority of our method, consistently achieving state-of-the-art performance across different datasets and various scenarios while keeping efficient and generalizable.
 
@@ -64,11 +65,20 @@ Thanks a lot :)
 
 ```bigquery
 
-@article{zhang2024native,
-  title={NativE: Multi-modal Knowledge Graph Completion in the Wild},
-  author={Zhang, Yichi and Chen, Zhuo and Guo, Lingbing and Xu, Yajing and Hu, Binbin and Liu, Ziqi and Zhang, Wen and Chen, Huajun},
-  journal={Authorea Preprints},
-  year={2024},
-  publisher={Authorea}
+@inproceedings{DBLP:conf/sigir/ZhangCGXHLZC24,
+  author       = {Yichi Zhang and
+                  Zhuo Chen and
+                  Lingbing Guo and
+                  Yajing Xu and
+                  Binbin Hu and
+                  Ziqi Liu and
+                  Wen Zhang and
+                  Huajun Chen},
+  title        = {NativE: Multi-modal Knowledge Graph Completion in the Wild},
+  booktitle    = {{SIGIR}},
+  pages        = {91--101},
+  publisher    = {{ACM}},
+  year         = {2024}
 }
+
 ```
