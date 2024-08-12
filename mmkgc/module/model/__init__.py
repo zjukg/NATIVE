@@ -7,8 +7,6 @@ from .TransE import TransE
 from .RotatE import RotatE
 from .IKRL import IKRL
 from .RSME import RSME
-from .EnsembleMMKGE import EnsembleMMKGE
-from .EnsembleComplEx import EnsembleComplEx
 from .TBKGC import TBKGC
 from .TransAE import TransAE
 from .MMKRL import MMKRL
